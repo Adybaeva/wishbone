@@ -1,0 +1,51 @@
+@import "vars";
+.header {
+  background: $purewhite;
+  box-shadow: 11px 11px 25px rgba(9, 7, 37, 0.06);
+  border-radius: 0px;
+
+  &__inner {
+    max-height: 90px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    object-fit: cover;
+    background-position: center;
+    display: block;
+    margin: auto 0;
+  }
+  &__nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__list + &__list {
+    margin-left: 32px;
+  }
+  &__link {
+    text-decoration: none;
+    height: 24px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1b1a1a;
+  }
+  &__btn {
+    display: inline-block;
+    height: 46px;
+    width: 155px;
+    text-align: center;
+    background: #1b1a1a;
+    border-radius: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+}

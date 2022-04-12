@@ -1,0 +1,72 @@
+@import "vars";
+
+.team {
+  &__inner {
+    padding: 6.25rem 0;
+    display: flex;
+    gap: 1.001rem;
+  }
+  &__left {
+    max-width: 23.666rem;
+    height: 24.5rem;
+    &-title {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 38px;
+      color: $dark;
+      margin: 0;
+    }
+    &-p {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: #645c55;
+      margin: 0;
+      padding-top: 0.875rem;
+    }
+    &-link {
+      display: inline-block;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 2.875rem;
+      letter-spacing: 0.4px;
+      color: #1b1a1a;
+      text-decoration: none;
+      width: 7.563rem;
+      height: 2.875rem;
+      text-align: center;
+      padding-top: 1.875rem;
+    }
+  }
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 23.666rem 23.666rem;
+    grid-template-rows: 6.25rem 6.25rem 6.25rem;
+    grid-row-gap: 2.25rem;
+  }
+  &__item {
+    display: flex;
+    gap: 1.875rem;
+    align-items: center;
+    &-img {
+      width: 5.25rem;
+      height: 5.25rem;
+    }
+    &-name {
+      margin: 0;
+      font-size: 17px;
+      line-height: 26px;
+      color: #1b1a1a;
+    }
+    &-profession {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      color: #645c55;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import "vars";
+
+.future {
+  background: #cec4bc;
+  &__inner {
+    padding: 6.25rem 0;
+    display: grid;
+    grid-template-columns: 36rem 37rem;
+  }
+  &__info {
+    max-height: 7.125rem;
+    &-subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #645c55;
+      margin: 0;
+    }
+    &-title {
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 42px;
+      color: #1b1a1a;
+      margin: 0;
+    }
+  }
+  &__link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &-btn {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 2.875rem;
+      letter-spacing: 0.4px;
+      color: #1b1a1a;
+      text-decoration: none;
+      width: 9.063rem;
+      height: 2.875rem;
+      text-align: center;
+    }
+  }
+}

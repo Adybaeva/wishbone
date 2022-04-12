@@ -1,0 +1,50 @@
+@import "vars";
+
+.customers {
+  &__inner {
+    padding: 60px 136px;
+    background-color: #403e3b;
+  }
+  &__wrapper {
+    max-width: 1168px;
+    max-height: 290px;
+    display: flex;
+    gap: 132px;
+  }
+  &__left {
+    padding: 65px 0;
+    max-width: 460px;
+    &-subtitle {
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ece7e4;
+      margin: 0;
+    }
+    &-title {
+      font-size: 32px;
+      line-height: 38px;
+      color: #ffffff;
+      margin: 0;
+    }
+    &-p {
+      font-size: 15px;
+      line-height: 24px;
+      color: #ece7e4;
+      margin: 0;
+      padding: 15px 0 75px;
+    }
+  }
+  &__right {
+    max-width: 432px;
+    max-height: 290px;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-auto-rows: 160px auto;
+    align-items: center;
+    img {
+      padding: 40px 36px;
+    }
+  }
+}
